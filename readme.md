@@ -25,7 +25,7 @@
 ---
 
 <br />
-<br />
+<a href="https://wakatime.com/badge/user/018ee58b-357b-4f61-b0ad-d2546ca042bf/project/c0d92dbf-fffa-4641-a7db-b176b13001b8"><img src="https://wakatime.com/badge/user/018ee58b-357b-4f61-b0ad-d2546ca042bf/project/c0d92dbf-fffa-4641-a7db-b176b13001b8.svg" alt="wakatime"></a>
 
 <!-- TODO: If you want to add more layers for your readme -->
 <details>
@@ -127,3 +127,5 @@ WD-ProjectName
 | w3school | Styling reference | https://www.w3schools.com/css/ |
 | Color picker | Getting rgb/rgba colors | https://imagecolorpicker.com/ |
 | Canva | Used as image manipulator | https://www.canva.com/ |
+| Pexel | Video stacks | https://www.pexels.com/search/videos/stack/ |
+
