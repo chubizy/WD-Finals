@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(163, 134, 175);
+    height: 65px;
+
+    & > .logo {
+        display: flex;
+        height: 120px;
+        padding-left: 2rem;
+    }
+
+    & > .navigationRL {
+        display: flex;
+        
+
+        & > .navigation {
+            color: rgb(255, 255, 255);
+            gap: 5rem;
+            padding: 2rem;
+            font-size: 20px;
+        }
+        
+    }
+
+}

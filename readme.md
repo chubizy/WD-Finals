@@ -126,4 +126,4 @@ WD-ProjectName
 | Pinterest | Some background images | https://ph.pinterest.com/ |
 | w3school | Styling reference | https://www.w3schools.com/css/ |
 | Color picker | Getting rgb/rgba colors | https://imagecolorpicker.com/ |
-| Canva | Used as image manipulator | https://imagecolorpicker.com/ |
+| Canva | Used as image manipulator | https://www.canva.com/ |

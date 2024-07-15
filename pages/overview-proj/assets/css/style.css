@@ -7,39 +7,10 @@
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-  
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 100rem;
-    z-index: 1;
-    position: absolute;
-
-    & > .naviC2 {
-        display: flex;
-        gap: 3rem;
-        font-size: 20px;
-        padding: 2rem;
-
-        & > .btn2 {
-            &:hover {
-                background: rgba(18,69,89,255);
-                border-radius: 50px;
-                color: aliceblue;
-            }
-        }
-    }
-    
-    
 }
 
 .projOverview{
     background-color: rgba(230,230,250,255);
-
 
     & > .intro {
     display: flex;
@@ -55,7 +26,6 @@ a {
         padding: 1rem;
         color: rgba(18,69,89,255);
         border-bottom: 1px solid rgb(0, 13, 70);
-       
     }
 
     & > .ptext {
@@ -73,7 +43,6 @@ a {
     background-color: rgba(1,22,30,255);
     padding: 3rem;
 
-   
 .context {
     position: relative;
     display: flex;
@@ -91,7 +60,6 @@ a {
         justify-content: center;
         align-items: center;
         padding: 2rem;
-        
     }
 
 
@@ -101,8 +69,6 @@ a {
         flex-direction: column;
         padding: 1rem;
         font-size: 15px;
-        
-        
     }
 }
 }
@@ -117,7 +83,6 @@ a {
     justify-content: center;
     padding-bottom: 5rem;
 
-   
 .context2 {
     position: relative;
     display: flex;
@@ -135,7 +100,6 @@ a {
         justify-content: center;
         align-items: center;
         padding: 2rem;
-        
     }
 
 
@@ -145,8 +109,6 @@ a {
         flex-direction: column;
         padding: 1rem;
         font-size: 15px;
-        
-        
     }
 }
 }

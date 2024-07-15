@@ -7,13 +7,9 @@
 a {
     text-decoration: none;
 }
-
-
-
     .websiteTitle {
         display: flex;
         flex-direction: column;
-
 
             & > .header {
                 display: flex;
@@ -42,7 +38,6 @@ a {
                     }
                 }
             }
-    
 
         & > .overWebBG {
             display: flex;
@@ -54,12 +49,10 @@ a {
         rgba(255, 255, 255, 0) 60%);
 
             & > .webImage {
-                
                 width: 100vw;
                 object-fit: cover;
                 z-index: -1;
                 opacity: 50%;
-                
             }
         }
 
@@ -79,7 +72,6 @@ a {
         color: rgb(28, 42, 54);
         z-index: 1;
         filter: drop-shadow(2px 2px 2px rgba(48,102,190,255));
-    
     }
 
 }
@@ -110,7 +102,6 @@ a {
             display: flex;
             height: 300px;
         }
-        
     }
 }
 
@@ -132,7 +123,6 @@ a {
             font-size: 70px;
             padding: 1rem;
         }
-        
          & > .devPic {
             display: flex;
             border-radius: 50%;
@@ -172,7 +162,6 @@ a {
     & > .naviOW {
         display: flex;
         gap: 5rem;
-        
         & > .button {
             padding: 1rem;
             font-size: 30px;
@@ -181,7 +170,6 @@ a {
             border-radius: 10px;
             color: aliceblue;
         }
-        
     }
 }
 
@@ -193,7 +181,6 @@ a {
     padding: 2rem;
     background-color: black;
     gap: 0.5rem;
-    
 
     & > .icons {
         display: flex;
@@ -206,7 +193,6 @@ a {
         display: flex;
         gap: 3rem;
         height: 30px;
-        
         & > .navigation-content {
             color: aliceblue;
         }
@@ -214,6 +200,5 @@ a {
 
     & > .disclaimer {
         color: aliceblue;
-        
     }
 }
