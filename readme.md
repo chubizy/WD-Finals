@@ -24,8 +24,8 @@
 
 ---
 
-<br />
 <a href="https://wakatime.com/badge/user/018ee58b-357b-4f61-b0ad-d2546ca042bf/project/c0d92dbf-fffa-4641-a7db-b176b13001b8"><img src="https://wakatime.com/badge/user/018ee58b-357b-4f61-b0ad-d2546ca042bf/project/c0d92dbf-fffa-4641-a7db-b176b13001b8.svg" alt="wakatime"></a>
+<br />
 
 <!-- TODO: If you want to add more layers for your readme -->
 <details>
