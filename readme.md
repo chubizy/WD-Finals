@@ -9,11 +9,11 @@
     <img src="./assets/img/Bloogoo_Dantic.png" alt="" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Finals</h3>
+  <h3 align="center">Personal Website</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This project has 5 pages where we can showcase our past projects with different designs, highlighting our experience, and coding skills.
+  This project has 5 pages to showcase my past projects with different designs, highlighting our experience, and coding skills.
 </div>
 
 <br />
@@ -57,15 +57,25 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This final project showcases my previous work, including Seatwork 2, Hands-on 1, Seatwork 3, Hands-on 2, and Seatwork 4. It highlights my experiences in coding HTML, troubleshooting, and using commit messages, as well as my design journey throughout the IT0043 course.
+
+The website features unique designs, navigations, headers, and content such as resumes, repository links, deployment links to my past projects, images of the languages used, and the total time spent coding each project. Additionally, it incorporates card-like styles and feature styles. The website was built using HTML for structure and CSS for styling and color.
+
+| Title | Deployment link | Repository link |
+|-|-|-|
+| Seatwork 2 | https://chubizy.github.io/WD-HandsOn1/ | https://github.com/chubizy/WD-HandsOn1 |
+| Hands-on 1 | https://chubizy.github.io/WDMidterm/ | https://github.com/chubizy/WDMidterm |
+| Seatwork 3 | https://chubizy.github.io/WD-SeatW3/ | https://github.com/chubizy/WD-SeatW3 |
+| Hands-on 2 | https://chubizy.github.io/WD-HandsOn_2/ | https://github.com/chubizy/WD-HandsOn_2 |
+| Seatwork 4 | https://chubizy.github.io/WD-SW4/ | https://github.com/chubizy/WD-SW4 |
 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Deployment links and Repository links
+- Features, cards, and animations
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -112,5 +122,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Icons | For icon navigation | https://fontawesome.com/search |
-| Icons | For icon navigation | https://fontawesome.com/search |
+| Font awesome | Icon navigation | https://fontawesome.com/search |
+| Pinterest | Some background images | https://ph.pinterest.com/ |
+| w3school | Styling reference | https://www.w3schools.com/css/ |
+| Color picker | Getting rgb/rgba colors | https://imagecolorpicker.com/ |
+| Canva | Used as image manipulator | https://imagecolorpicker.com/ |
