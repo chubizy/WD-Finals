@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.PO1 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(220,240,250,255);
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 2rem;
+        height: 7vh;
+        
+    
+        & > .naviG {
+            display: flex;
+            gap: 3rem;
+
+            
+            
+            & > .naviGbtn {
+                color: rgba(0,50,86,255);
+                font-size: 20px;
+
+                &:hover {
+                    color: rgb(0, 0, 0);
+                    font-size: 25px;
+                }
+            }
+        
+    }
+    }
+
+    & .context {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 18rem;
+        font-size: 60px;
+        text-align: center;
+        gap: 3rem;
+
+        & > .text {
+            font-size: 30px;
+        }
+    }
+}
+
+.projOverview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding: 3rem;
+
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.projOverview2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding: 3rem;
+    border-radius: 50%;
+
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    
+    
+    & .card {
+        display: flex;
+        border-radius: 50%;
+        opacity: 0.6;
+        transition: 0.3s;
+
+        &:hover {
+            opacity: 1;
+            border: 2px solid rgb(0, 7, 102);
+                filter: drop-shadow(3px 3px 3px rgb(20,52,92));
+}
+        
+    }
+
+    & .descript {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        padding: 3rem;
+        font-size: 40px;
+        color: rgba(0,22,30,255);
+    }
+    
+}

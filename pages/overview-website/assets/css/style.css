@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+    .websiteTitle {
+        display: flex;
+        flex-direction: column;
+
+
+            & > .header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding-left: 2rem;
+                z-index: 1;
+                position: absolute;
+                border-bottom: 1px solid rgb(199, 196, 196);
+
+                & > .logoBG {
+                    height: 100px;
+                }
+
+                & > .navigationOW {
+                    display: flex;
+                flex-direction: row;
+                padding-left: 65rem;
+
+                    & > .navigation {
+                        color: rgb(0, 0, 0);
+                        gap: 5rem;
+                        padding: 2rem;
+                        font-size: 20px;
+                    }
+                }
+            }
+    
+
+        & > .overWebBG {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            background: linear-gradient(
+        360deg,
+        rgb(10, 33, 68) 5%,
+        rgba(255, 255, 255, 0) 60%);
+
+            & > .webImage {
+                
+                width: 100vw;
+                object-fit: cover;
+                z-index: -1;
+                opacity: 50%;
+                
+            }
+        }
+
+        & > .text {
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        padding-top: 23rem;
+        text-align: center;
+        font-size: 60px;
+        position: absolute;
+        gap: 1rem;
+        color: rgb(28, 42, 54);
+        z-index: 1;
+        filter: drop-shadow(2px 2px 2px rgba(48,102,190,255));
+    
+    }
+
+}
+
+.aboutWebsite {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    background-color: rgb(237, 248, 248);
+    padding: 4.5rem;
+    gap: 5rem;
+
+    & > .webText {
+        text-align: justify;
+    font-size: 30px;
+    padding-right: 5rem;
+    & > .abweb {
+        color: rgb(21, 21, 100);
+    }
+    }
+
+    & > .web{
+        display: flex;
+        float: right;
+        padding-top: 4rem;
+
+        & > .webImage {
+            display: flex;
+            height: 300px;
+        }
+        
+    }
+}
+
+.aboutDeveloper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    & > .devContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        & > .meetDev {
+            font-size: 70px;
+            padding: 1rem;
+        }
+        
+         & > .devPic {
+            display: flex;
+            border-radius: 50%;
+            height: 50%;
+            border: 1.5px solid rgb(255, 237, 135);
+            filter: drop-shadow(2px 2px 2px rgba(48,102,190,255));
+         }
+
+         & > .devName {
+            font-size: 35px;
+         }
+          & > .role {
+            font-size: 30px;
+            color: green;
+          }
+    }
+
+}
+
+.tillNextProj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: rgb(237, 248, 248);
+
+    & > .des {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 70px;
+        gap: 5rem;
+    }
+
+    & > .naviOW {
+        display: flex;
+        gap: 5rem;
+        
+        & > .button {
+            padding: 1rem;
+            font-size: 30px;
+            border: 1px solid rgba(2,48,71,255);
+            background-color: rgba(2,48,71,255);
+            border-radius: 10px;
+            color: aliceblue;
+        }
+        
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: black;
+    gap: 0.5rem;
+    
+
+    & > .icons {
+        display: flex;
+        gap: 2rem;
+        height: 30px;
+        color: aliceblue;
+    }
+
+    & > .navigation {
+        display: flex;
+        gap: 3rem;
+        height: 30px;
+        
+        & > .navigation-content {
+            color: aliceblue;
+        }
+    }
+
+    & > .disclaimer {
+        color: aliceblue;
+        
+    }
+}

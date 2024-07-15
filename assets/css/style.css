@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .tajawal-extralight {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    & > .logo {
+        height: 120px;
+    }
+}
+
+.lp {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    background: linear-gradient(
+        200deg,
+        rgb(204, 158, 98) 5%,
+        rgba(255, 255, 255, 0) 60%);
+    height: 90vh;
+    gap: 5rem;
+
+
+    & > .videoBG {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        height: 109.1vh;
+        object-fit: contain;
+        z-index: -1;
+        overflow-x: hidden;
+    }
+
+    & > .contentLP {
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        padding-top: 7rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        text-align: center;
+        font-size: 40px;
+        gap: 1rem;
+        
+    }
+    & > .title{
+        font-size: 90px;
+    }
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+
+    & > .nav {
+        font-size: 20px;
+        border: 3px solid rgba(253,89,1,255);
+        background-color: rgba(253,89,1,255);
+        padding: 0.5rem;
+        border-radius: 10px;
+        opacity: 0.6;
+        transition: 0.3s;
+
+        &:hover {
+            opacity: 1;
+            border: 2px solid rgb(187, 125, 67);
+                filter: drop-shadow(3px 3px 3px rgba(234,226,183,255));
+}
+        
+        & > a {
+            display: flex;
+            color: rgb(0, 0, 0);
+
+            
+}
+}
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+    & > .copyright {
+        color: aliceblue;
+    }
+}
